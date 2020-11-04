@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body class="px-3">
+    <header>
+        <div class="py-2 px-2 font-semibold bg-gray-400">
+            Create New Rx</div>
+    </header>
+    <div class="text-sm font-bold py-2 px-2 border-b-2">
+        Richardson,Jessica <span class="px-6 text-gray-700">35Years</span><span class="text-gray-700">03/14/1985</span>
+    </div>
+    <div class="py-3 text-orange-600">
+        *<span class="text-gray-600">Requried Fields</span>
+    </div>
+    <label class="text-gray-700 block font-semibold py-2 mb-0">Provider</label>
+    <select class="border-2 m-0 py-2 pl-2 pr-32 text-base font-semibold rounded shadow-none " name="drtype" id="drtype">
+        <option value="smith">Smith,Quinn,MD</option>
+        <option value="phrm.d">2</option>
+        <option value="b.phm">3</option>
+        <option value="md">4</option>
+        <option value="dr">5</option>
+    </select>
+    <div class=" py-3 ">
+
+        <label for="scale">Zithromax <span class="text-gray-600 ">(azithromycin) tablet oral</span> </label>
+        <div> <input class="border-2 py-2 px-2 placeholder-black " type="number" id="scale" name="scale"
+                placeholder="250mg">
+        </div>
+    </div>
+    <div class="text-orange-600">
+        <lable for="duration">
+            *<span class="text-gray-800 text-semibold">Direction-Sig</span></lable>
+        <div>
+            <lable>
+                <button
+                    class="text-indigo-500 border-2 m-0 py-2 pl-2 pr-2 text-base font-semibold rounded shadow-none  border-indigo-500 text-sm shadow-none"
+                    name="medtype" id="medtyp">
+
+                    <i class="fas fa-edit"></i> Take 1 tablet by mouth,once a day,as directed,for 30 days
+
+
+                </button>
+            </lable>
+        </div>
+    </div>
+    <div class="flex text align-center -ml-6  ">
+        <div class="px-8  ">
+            <lable for="qty" class="pt-4 text-orange-600 flex"> *<span class="text-gray-800">Quantity</span></lable>
+            <select
+                class="text-gray-700 border-2 m-0  py-2 pl-2 pr-32 text-base  rounded shadow-none  border-gray-300 text-sm shadow-none"
+                name="qty" id="qty">
+                <option value="tablet">30</option>
+            </select>
+        </div>
+        <div>
+            <lable for="qty" class="text-gray-800 pt-4 pl-4 flex">Refills</lable>
+
+            <select
+                class="text-gray-800 border-2 m-0  py-2 pl-2 pr-32 text-base  rounded shadow-none  border-gray-300 text-sm shadow-none"
+                name="qty" id="qty">
+                <option value="tablet">0</option>
+            </select>
+        </div>
+    </div>
+    <div class="py-3">
+        <lable for="text" class="text-orange-600 pt-4 pb-2 ">*<span class="text-gray-800"> pharmacy</span></p>
+
+
+            <button class="border-2  pr-20 py-2 pl-3 rounded border-gray-300 shadow-none text-gray-700">Rite Aid:3029
+                Harbor Blvd,Costa
+                Mesa,CA 92626</button>
+    </div>
+    <div class="flex py-3">
+        <div class="bg-gray-200 flex w-1/2 px-1 py-1 text-indigo-600 border-separate rounded-3xl sm:p">
+            <button class="pl-4 pr-4 text-md w-1/2 "> Subsitution Permitted</button>
+            <button class="bg-white w-1/2 pl-4 rounded-3xl pr-4  text-gray-700 text-md"> Dispense As Written</button>
+        </div>
+    </div>
+    <div class="block">
+        <label for="date">Stop date</label>
+
+        <input class="form-input mt-1 block py-2 border-2 border-gray-200 placeholder-black" placeholder="11/30/2020">
+    </div>
+    </div>
+    <label class="block py-4">
+        <span class="text-gray-700">Additional Direction to Patient</span>
+        <textarea class="form-textarea mt-1 block  w-1/2 " rows="3"></textarea>
+    </label>
+    <label class="block py-2">
+        <span class="text-gray-700">Notes to Pharmacy</span>
+        <textarea class="form-textarea mt-1 block w-1/2 " rows="3"></textarea>
+    </label>
+
+
+
+    <label class="text-sm py-6">
+
+
+        <input type="checkbox" value="subscribe" name="subscribe" checked>
+        <span class="">Add to Favorite Rx</span><svg class="w-4 text-yellow-500  " xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+        </svg>
+
+    </label>
+
+    <div class="py-3">
+        <button class="border-2 px-40 py-2 bg-indigo-600 text-white font-bold" type="continue">continue</button>
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="font-bold text-xl bg-gray-100 py-2 px-2 text-gray-900">
+        Review Rx
+      </h1>
+    </header>
+    <div class="flex flex-1 flex-row max-w-4xl">
+      <div class="pr-6 pt-2">
+        <p class="text-sm font-semibold px-2 py-3">
+          Keithley, Kevin <span class="px-6 text-gray-700">35Years</span
+          ><span class="text-gray-700">03/14/1985</span>
+        </p>
+        <div class="flex mt-4 text-sm">
+          <label class="flex items-center">
+            <input type="checkbox" class="form-checkbox" />
+            <span class="ml-2 text-gray-700"
+              >Send a Rx copy to patient’s email<span class="text-teal-600"
+                >: kevin@gmail.com<span class="pl-2"
+                  ><i class="fas fa-edit"></i></span></span
+            ></span>
+          </label>
+        </div>
+        <p class="text-lg font-semibold mt-6">
+          Norco<span class="text-base text-gray-700">
+            (hydrocodone-acetaminophen) tablet oral - 5-325 mg</span
+          >
+        </p>
+        <p class="text-sm text-gray-600 pt-2">Directions — Sig</p>
+        <p class="text-gray-900">
+          Take 1 tablet by mouth, three times a day, for 30 days.
+        </p>
+        <p class="text-gray-600 py-3 text-sm">Quantity</p>
+        <p>30</p>
+        <p class="text-gray-600 py-2 text-sm">Refills</p>
+        <p>0</p>
+      </div>
+      <div class="pl-8 border-l-2 pt-2">
+        <p class="text-sm text-gray-600 pb-2">Oder#</p>
+        <p>REGION3-71160379636</p>
+        <p class="text-sm pt-2 text-gray-600">Provider</p>
+        <p>Smith, Quinn, MD</p>
+        <p class="pt-3 text-gray-600 text-sm">Pharmacy</p>
+        <p>Creative Pharmacy: 3303 Harbor Blvd, Suite C4Costa Mesa, CA 92626</p>
+      </div>
+    </div>
+    <div class="mt-4 bg-gray-100 py-2 px-3">
+      <div class="font-semibold pb-2 text-gray-900">
+        Because this medication is a controlled substance, schedule II, we sent
+        you a code to (714) 522-4991.
+      </div>
+      <label class="block">
+        <span class="text-gray-700 text-sm font-semibold"
+          >Enter 4 Digit Code</span
+        >
+        <input class="form-input mt-1 block" placeholder="_ _ _ _" />
+      </label>
+      <button class="text-sm text-gray-700 mt-4 underline">Resend code</button>
+    </div>
+    <div class="flex justify-end mt-4">
+      <button class="text-teal-800 px-2 py-2">Cancle</button>
+      <button class="text-white px-2 py-2 bg-teal-700 rounded px-4">
+        Add to Pending
+      </button>
+    </div>
+  </body>
+</html>
