@@ -7,6 +7,12 @@ module.exports = {
   },
   purge: [],
   theme: {
+    spacing: {
+      sm: '8px',
+      md: '16px',
+      lg: '24px',
+      xl: '48px',
+     }
     extend: {
       colors:{
         primary:' #017698';
@@ -18,7 +24,9 @@ module.exports = {
        }
     },
   },
-  variants: {},
+  variants: {
+    extend:{},
+  },
   plugins: [
     require('@tailwindcss/custom-forms'),
   ],
