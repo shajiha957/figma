@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body class="px-2 bg-gray-100">
+    <form>
+      <div class="flex">
+        <div>
+          <div class="text-xs text-gray-700 pt-4 pr-6 font-semibold">
+            Existing Patient
+            <div class="relative border-2 rounded text-xs px-2 w-1/2">
+              <svg
+                class="h-6 w-6 bg-blue-500 absolute right-0 ml-2 fill-current text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <input
+                class="bg-transparent py-1"
+                placeholder="Search patients, drugs, medical conditions"
+              />
+            </div>
+          </div>
+          <div>
+            <label class="block mt-4">
+              <span class="text-gray-700 text-xs">Provider</span>
+              <select class="form-select mt-1 block w-1/4 text-xs">
+                <option>All Providers</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </label>
+          </div>
+          <div class="py-2">
+            <label for="date">
+              <input type="date" />
+            </label>
+          </div>
+        </div>
+        <div>
+          <h1>Monday - November 23, 2020</h1>
+          <div
+            class="flex items-center border-2 py-1 rounded px-4 w-24 text-indigo-500"
+          >
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 14.5C0 15.3281 0.767857 16 1.71429 16H14.2857C15.2321 16 16 15.3281 16 14.5V6H0V14.5ZM2.28571 8.5C2.28571 8.225 2.54286 8 2.85714 8H6.28571C6.6 8 6.85714 8.225 6.85714 8.5V11.5C6.85714 11.775 6.6 12 6.28571 12H2.85714C2.54286 12 2.28571 11.775 2.28571 11.5V8.5ZM14.2857 2H12.5714V0.5C12.5714 0.225 12.3143 0 12 0H10.8571C10.5429 0 10.2857 0.225 10.2857 0.5V2H5.71429V0.5C5.71429 0.225 5.45714 0 5.14286 0H4C3.68571 0 3.42857 0.225 3.42857 0.5V2H1.71429C0.767857 2 0 2.67188 0 3.5V5H16V3.5C16 2.67188 15.2321 2 14.2857 2Z"
+                fill="#017698"
+              />
+            </svg>
+            <span class="px-1">Today</span>
+          </div>
+          <svg
+            class="h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+          <svg
+            class="h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
